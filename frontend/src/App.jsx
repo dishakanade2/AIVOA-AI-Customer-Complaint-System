@@ -32,7 +32,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/complaints",
+        "https://aivoa-ai-customer-complaint-system.onrender.com/complaints",
         {
           method: "POST",
           headers: {
